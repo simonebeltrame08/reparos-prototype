@@ -144,7 +144,7 @@ body {
 /* ── escalation card ── */
 .escalation-card {
   background: #fff; border: 1px solid #e4e4e8; border-radius: 24px;
-  padding: 24px 20px; display: flex; flex-direction: column; gap: 20px; width: 330px;
+  padding: 24px 20px; display: flex; flex-direction: column; gap: 20px; width: 361px;
 }
 .escalation-body { display: flex; align-items: flex-start; gap: 16px; }
 .escalation-avatar { width: 48px; height: 48px; border-radius: 50%; overflow: hidden; background: #e4e4e8; flex-shrink: 0; }
@@ -949,7 +949,7 @@ const DOMI = [
   { who:'user', text:'A cuba da pia da cozinha descolou' },
   { who:'domi', text:'Entendi. Me mostre exatamente o que aconteceu. Envie um vídeo ou uma foto para que eu possa entender melhor a situação.' },
   { who:'user', text:'está soltando do mármore', photo:true },
-  { who:'domi', text:'Analisei a foto e nesse caso envolve estrutura do imóvel. Vamos avisar o proprietário e acionar a Porto Serviços para resolver o problema. Você não paga nada, ok?' },
+  { who:'domi', text:'Perfeito. Vou abrir aqui a solicitação de reparo, para dar sequência com a Porto Serviços.' },
   { who:'domi', type:'object-card' },
   { who:'domi', text:'Agora você vai agendar o serviço diretamente pelo WhatsApp com a Porto.' },
   { who:'domi', type:'escalation-card' },
@@ -1012,7 +1012,7 @@ function appendDomi(s) {
       <div class="object-card-body">
         <div class="object-card-text">
           <div class="object-card-title">Solicitação de reparo</div>
-          <div class="object-card-date">Em 26/05/2026</div>
+          <div class="object-card-date">Em 22/05/2026</div>
         </div>
         <div class="object-card-thumb"><img src="${PHOTO_URL}" alt=""></div>
       </div>
@@ -1029,7 +1029,7 @@ function appendDomi(s) {
       </div>
       <button class="btn-primary" id="go-wa-btn">
         Ir para o WhatsApp da Porto
-        <img src="${WA_ICON}" width="16" height="16" alt="">
+        <img src="launch-icon.svg" width="16" height="16" alt="" style="filter:brightness(0) invert(1)">
       </button>`;
     setTimeout(() => {
       const btn = document.getElementById('go-wa-btn');
