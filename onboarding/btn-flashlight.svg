@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-67.957" y="-67.957" width="185.914" height="185.914"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(33.98px);clip-path:url(#bgblur_0_0_4_clip_path);height:100%;width:100%"></div></foreignObject><g id="Flashlight Button" data-figma-bg-blur-radius="67.957">
+<rect width="50" height="50" rx="25" fill="var(--fill-0, black)" fill-opacity="0.26"/>
+<path id="Flashlight Icon" fill-rule="evenodd" clip-rule="evenodd" d="M26.0397 27.4105C26.0397 27.9843 25.5749 28.4489 25.0008 28.4489C24.4267 28.4489 23.9618 27.9843 23.9618 27.4105C23.9618 26.8368 24.4267 26.3722 25.0008 26.3722C25.5749 26.3722 26.0397 26.8368 26.0397 27.4105ZM23.264 24.6613V27.3887C23.264 28.347 24.0419 29.1235 25.0008 29.1235C25.9597 29.1235 26.7376 28.347 26.7376 27.3887V24.6613C26.7376 23.7019 25.9597 22.9255 25.0008 22.9255C24.0419 22.9255 23.264 23.7019 23.264 24.6613ZM30.2018 15.2838C30.2018 16.6017 30.2008 17.6349 28.9008 19.4424C27.8722 20.8727 27.7745 21.489 27.7745 23.0793V37.6311C27.7745 38.4927 27.0766 39.1902 26.2145 39.1902H23.7881C22.926 39.1902 22.2281 38.4927 22.2281 37.6311V23.0793C22.2281 21.489 22.1304 20.8727 21.1008 19.4424C19.8018 17.6349 19.8008 16.6017 19.8008 15.2838H30.2018ZM19.8008 13.0324C19.8008 12.7455 20.0337 12.5127 20.3208 12.5127H29.6818C29.9689 12.5127 30.2018 12.7455 30.2018 13.0324V14.2444H19.8008V13.0324Z" fill="var(--fill-0, white)"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_4_clip_path" transform="translate(67.957 67.957)"><rect width="50" height="50" rx="25"/>
+</clipPath></defs>
+</svg>
